@@ -1,0 +1,76 @@
+.product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.product-card {
+  background: #fff; border-radius: var(--radius); overflow: hidden;
+  border: 1px solid var(--line); transition: all var(--transition);
+  display: flex; flex-direction: column;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow);
+  border-color: transparent;
+}
+.product-visual {
+  height: 260px; position: relative;
+  background-size: cover; background-position: center;
+  transition: transform 0.6s ease;
+  overflow: hidden;
+}
+.product-card:hover .product-visual { transform: scale(1.04); }
+.product-visual::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(180deg, transparent 50%, rgba(10,46,66,0.25) 100%);
+}
+.product-badge {
+  position: absolute; top: 18px; left: 18px; z-index: 2;
+  font-family: 'Playfair Display', serif;
+  background: rgba(255,255,255,0.92); color: var(--primary);
+  width: 44px; height: 44px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px; font-weight: 500; letter-spacing: 0.5px;
+  backdrop-filter: blur(6px);
+}
+.product-body { padding: 34px 30px; flex: 1; display: flex; flex-direction: column; }
+.product-body small {
+  color: var(--copper); font-weight: 500; letter-spacing: 2.5px;
+  text-transform: uppercase; font-size: 11px; margin-bottom: 10px;
+}
+.product-body h3 { margin: 4px 0 14px; font-size: 24px; font-weight: 500; letter-spacing: -0.01em; }
+.product-body p { color: var(--muted); font-size: 15px; line-height: 1.65; margin-bottom: 22px; flex: 1; }
+.product-body .link-arrow { align-self: flex-start; font-size: 11px; letter-spacing: 1.4px; }
+
+.specs { background: var(--cream); }
+.spec-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+.spec {
+  background: #fff; padding: 36px 30px; border-radius: var(--radius);
+  border: 1px solid var(--line); transition: all var(--transition);
+  position: relative;
+}
+.spec:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: transparent; }
+.spec span {
+  display: block; font-family: 'Playfair Display', serif;
+  font-size: 28px; color: var(--copper); font-weight: 400;
+  margin-bottom: 12px; letter-spacing: -0.01em;
+}
+.spec h3 { font-size: 19px; margin-bottom: 8px; font-weight: 500; letter-spacing: -0.005em; }
+.spec p { color: var(--muted); font-size: 14.5px; line-height: 1.6; }
+
+.cta-banner {
+  background-size: cover; background-position: center;
+  color: #fff; padding: 110px 0;
+}
+.cta-inner { display: flex; justify-content: space-between; align-items: flex-end; gap: 50px; flex-wrap: wrap; }
+.cta-banner h2 {
+  color: #fff; font-size: clamp(30px, 4vw, 46px);
+  font-weight: 400; line-height: 1.15; letter-spacing: -0.015em;
+  margin-top: 16px;
+}
+.cta-inner p { color: rgba(255,255,255,0.78); max-width: 520px; margin-top: 18px; font-size: 16px; line-height: 1.65; }
+.cta-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+
+@media (max-width: 1024px) {
+  .product-grid, .spec-grid { grid-template-columns: repeat(2,1fr); }
+}
+@media (max-width: 560px) {
+  .product-grid, .spec-grid { grid-template-columns: 1fr; }
+  .cta-inner { flex-direction: column; align-items: flex-start; }
+}

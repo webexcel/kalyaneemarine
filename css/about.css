@@ -1,0 +1,91 @@
+.about-intro-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 90px; align-items: center; }
+.about-img { position: relative; border-radius: var(--radius-lg); overflow: hidden; }
+.about-img img {
+  width: 100%; aspect-ratio: 4/5; object-fit: cover;
+  transition: transform 6s ease;
+}
+.about-img:hover img { transform: scale(1.06); }
+.about-badge {
+  position: absolute; bottom: 30px; left: 30px;
+  background: rgba(255,255,255,0.95); backdrop-filter: blur(6px);
+  color: var(--primary); padding: 18px 26px; border-radius: var(--radius);
+  border-left: 3px solid var(--copper);
+}
+.about-badge strong {
+  display: block; font-family: 'Playfair Display', serif;
+  font-size: 22px; font-weight: 500; color: var(--primary);
+}
+.about-badge span {
+  font-size: 10.5px; letter-spacing: 2.5px; text-transform: uppercase;
+  color: var(--muted); display: block; margin-top: 4px;
+}
+
+.about-text h2 { font-size: clamp(32px, 4.2vw, 52px); margin-bottom: 24px; line-height: 1.08; letter-spacing: -0.02em; }
+.about-text h2 em { font-style: italic; font-weight: 400; color: var(--copper); }
+.about-text .lead { font-size: 19px; color: var(--text); margin-bottom: 20px; line-height: 1.65; }
+.about-text p:not(.lead) { color: var(--muted); margin-bottom: 16px; font-size: 16px; line-height: 1.75; }
+
+/* Pillars */
+.values { background: var(--cream); }
+.value-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 30px; }
+.value {
+  background: #fff; padding: 50px 36px 40px; border-radius: var(--radius);
+  border: 1px solid var(--line); transition: all var(--transition);
+  position: relative;
+}
+.value:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: transparent; }
+.value-num {
+  display: block; font-family: 'Playfair Display', serif;
+  font-size: 32px; color: var(--copper); margin-bottom: 18px;
+  font-weight: 400; letter-spacing: -0.01em;
+}
+.value h3 { font-size: 24px; margin-bottom: 14px; font-weight: 500; letter-spacing: -0.01em; }
+.value p { color: var(--muted); font-size: 15.5px; line-height: 1.7; }
+
+/* Why */
+.why-us { background: #fff; }
+.why-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 24px; }
+.why-card {
+  padding: 40px 28px; border-radius: var(--radius); background: var(--foam);
+  transition: all var(--transition); border: 1px solid transparent;
+}
+.why-card:hover { background: #fff; border-color: var(--copper); transform: translateY(-6px); box-shadow: var(--shadow); }
+.why-card span {
+  display: inline-block; font-family: 'Playfair Display', serif;
+  font-size: 42px; color: var(--copper); line-height: 1;
+  font-weight: 400; letter-spacing: -0.02em;
+}
+.why-card h3 { margin: 10px 0 10px; font-size: 20px; font-weight: 500; letter-spacing: -0.005em; }
+.why-card p { color: var(--muted); font-size: 14.5px; line-height: 1.65; }
+
+/* Team */
+.team-preview { background: var(--cream); }
+.team-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 24px; }
+.team-card {
+  background: #fff; padding: 44px 28px 36px; border-radius: var(--radius);
+  transition: all var(--transition); text-align: left;
+  border: 1px solid var(--line); position: relative;
+}
+.team-card::before {
+  content: ''; display: block; width: 48px; height: 2px;
+  background: var(--copper); margin-bottom: 22px;
+}
+.team-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: transparent; }
+.team-card h3 { font-size: 22px; font-weight: 500; letter-spacing: -0.01em; }
+.team-card > span {
+  display: inline-block; color: var(--copper); font-size: 11px;
+  letter-spacing: 2.5px; text-transform: uppercase; margin: 6px 0 18px;
+  font-weight: 500;
+}
+.team-card p { color: var(--muted); font-size: 14.5px; line-height: 1.65; margin-bottom: 20px; }
+.team-card .link-arrow { font-size: 11px; letter-spacing: 1.2px; }
+
+@media (max-width: 1024px) {
+  .about-intro-grid { grid-template-columns: 1fr; gap: 60px; }
+  .about-img { max-width: 480px; margin: 0 auto; }
+  .value-grid { grid-template-columns: 1fr; gap: 20px; }
+  .why-grid, .team-grid { grid-template-columns: repeat(2,1fr); }
+}
+@media (max-width: 560px) {
+  .why-grid, .team-grid { grid-template-columns: 1fr; }
+}
