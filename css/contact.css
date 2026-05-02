@@ -66,7 +66,14 @@
   .contact-grid { grid-template-columns: 1fr; gap: 60px; }
   .contact-form-wrap { padding: 40px 32px; }
 }
+@media (max-width: 768px) {
+  .contact-grid { grid-template-columns: 1fr; gap: 44px; }
+  .contact-form-wrap { padding: 36px 28px; }
+  .contact-info h2 { font-size: clamp(26px, 7vw, 38px); }
+}
 @media (max-width: 560px) {
   .contact-cards, .contact-form .row { grid-template-columns: 1fr; }
-  .contact-form-wrap { padding: 32px 24px; }
+  .contact-form-wrap { padding: 28px 20px; }
+  .contact-card { padding: 22px 20px; }
+  .contact-info h2 { font-size: clamp(24px, 8vw, 34px); }
 }

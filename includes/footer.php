@@ -58,16 +58,42 @@
 </footer>
 <script>
   (function () {
-    const header = document.getElementById('siteHeader');
-    if (header) {
-      const toggleScrolled = () => header.classList.toggle('scrolled', window.scrollY > 10);
-      toggleScrolled();
-      window.addEventListener('scroll', toggleScrolled, { passive: true });
-    }
+    /* ---- Reveal observer ---- */
     const io = new IntersectionObserver((entries) => {
       entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
     }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
     document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    /* ---- Mobile nav ---- */
+    const hamBtn    = document.getElementById('hamBtn');
+    const mobClose  = document.getElementById('mobClose');
+    const backdrop  = document.getElementById('mobBackdrop');
+    const mobNav    = document.getElementById('mobNav');
+
+    function openNav() {
+      document.body.classList.add('nav-open');
+      if (hamBtn)   hamBtn.setAttribute('aria-expanded', 'true');
+      if (mobNav)   mobNav.setAttribute('aria-hidden', 'false');
+    }
+    function closeNav() {
+      document.body.classList.remove('nav-open');
+      if (hamBtn)   hamBtn.setAttribute('aria-expanded', 'false');
+      if (mobNav)   mobNav.setAttribute('aria-hidden', 'true');
+    }
+
+    if (hamBtn)   hamBtn.addEventListener('click', openNav);
+    if (mobClose) mobClose.addEventListener('click', closeNav);
+    if (backdrop) backdrop.addEventListener('click', closeNav);
+
+    /* Close on Escape key */
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeNav();
+    });
+
+    /* Close nav when a link is tapped */
+    document.querySelectorAll('.mob-link').forEach(function(link) {
+      link.addEventListener('click', closeNav);
+    });
   })();
 </script>
 </body>
