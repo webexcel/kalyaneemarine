@@ -91,7 +91,7 @@
         'name'     => 'Black Tiger',
         'sub'      => 'Whole / HLSO / PD',
         'desc'     => 'Bold-flavoured, larger-sized black tiger prawns &mdash; for markets that ask for something more.',
-        'img'      => 'assets/cards/1.jpg',
+        'img'      => 'assets/cards/33.png',
         'cat'      => 'tiger',
         'tag'      => 'Premium',
         'specs'    => ['Count: U/8, U/10, 13/15', 'Frozen: IQF / Block', 'Pack: 2kg, 5kg, 10kg'],

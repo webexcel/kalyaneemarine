@@ -16,43 +16,17 @@
   <div class="container">
     <div class="founder-grid">
       <div class="founder-card reveal reveal-zoom">
-        <div class="fc-top">
-          <span class="fc-eyebrow">Founder&rsquo;s Mark</span>
-          <span class="fc-year">2010</span>
+        <div class="fc-photo">
+          <img src="assets/Founder.png" alt="K. R. Mayalagu — Executive Chairman, KRM Group">
         </div>
-
-        <div class="fc-monogram" aria-hidden="true">
-          <span>N</span><span>P</span>
+        <div class="fc-photo-overlay">
+          <span class="fc-eyebrow">Founder &amp; Chairman</span>
+          <span class="fc-photo-name">K. R. Mayalagu</span>
         </div>
-
-        <svg class="fc-signature" viewBox="0 0 260 70" aria-hidden="true">
-          <path d="M10 50 C 30 10, 60 60, 80 30 S 130 10, 160 35 S 210 60, 250 25"
-                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-        <span class="fc-signature-name">Naveen Prabhakar</span>
-
-        <div class="fc-divider"></div>
-
-        <ul class="fc-meta">
-          <li>
-            <span class="fc-meta-k">Origin</span>
-            <span class="fc-meta-v">Andhra Coast, India</span>
-          </li>
-          <li>
-            <span class="fc-meta-k">Discipline</span>
-            <span class="fc-meta-v">Shrimp Farming &amp; Export</span>
-          </li>
-          <li>
-            <span class="fc-meta-k">Tenure</span>
-            <span class="fc-meta-v">15+ Years</span>
-          </li>
-        </ul>
-
         <div class="fc-tag">
           <span class="dot"></span>
-          <span>Andhra Coast &middot; Est. 2010</span>
+          <span>Chennai &middot; Est. 1986</span>
         </div>
-
         <svg class="fc-wave" viewBox="0 0 400 80" preserveAspectRatio="none" aria-hidden="true">
           <path d="M0 40 Q 50 10 100 40 T 200 40 T 300 40 T 400 40 V80 H0 Z" fill="currentColor" opacity="0.08"/>
           <path d="M0 50 Q 50 20 100 50 T 200 50 T 300 50 T 400 50 V80 H0 Z" fill="currentColor" opacity="0.14"/>
@@ -61,14 +35,14 @@
 
       <div class="founder-headline reveal reveal-delay-1">
         <span class="about-eyebrow">Who We Are</span>
-        <h2>Naveen Prabhakar</h2>
-        <span class="founder-chip">Managing Director &amp; Founder</span>
+        <h2>Kalimuthu Rengasami Mayalagu</h2>
+        <span class="founder-chip">Executive Chairman, KRM Group</span>
       </div>
 
       <div class="founder-bio reveal reveal-delay-2">
-        <p>Kalyanee Marine was founded by <strong>Shri Naveen Prabhakar</strong>, a visionary leader whose decades of experience on the Andhra coast shaped the company&rsquo;s commitment to quality, integrity, and global excellence in shrimp exports.</p>
-        <p>His vision laid the foundation for a professionally managed organisation built on strong values, ethical governance, and a long-term commitment to sectoral development &mdash; principles that continue to guide Kalyanee Marine today.</p>
-        <a href="mailto:krm@kalyaneemarine.com" class="link-arrow about-link">Write to Naveen <span class="arrow"></span></a>
+        <p>K R M Group, known in the International markets for quality shrimp products, is the <strong>leader in the Shrimp Industry of Southern India</strong>. Headquartered at Chennai, the Group was established in 1986 and since its inception, the group is serving global markets by supplying various shrimp products &mdash; both traditional as well as value added.</p>
+        <p>The Group achieves a turnover of more than <strong>USD 25 million</strong> in recent years and every year procures and processes around <strong>5,000 MT</strong> of Whole (Head On) Shrimps to transform into various product forms for exports. Backed with 25 years of historical experience in the Indian Seafood Industry, <strong>Mr. K R Mayalagu</strong>, Executive Chairman, continues to head the Group.</p>
+        <a href="contact.php" class="link-arrow about-link">Work with us <span class="arrow"></span></a>
       </div>
     </div>
   </div>
@@ -94,6 +68,83 @@
         <strong><span class="count" data-count="100">0</span><span>%</span></strong>
         <span>Cold-chain Integrity</span>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERSHIP / DIRECTORS -->
+<section class="section about-directors">
+  <div class="container">
+    <div class="directors-head reveal">
+      <div class="dh-left">
+        <span class="about-eyebrow">Leadership</span>
+        <h2>The people behind<br><em>every shipment.</em></h2>
+      </div>
+      <p class="dh-desc">An experienced team driving operations, quality, procurement, and finance &mdash; each bringing deep expertise across the seafood export value chain.</p>
+    </div>
+
+    <div class="directors-grid">
+
+      <article class="dir-card reveal">
+        <span class="dir-glow" aria-hidden="true"></span>
+        <div class="dir-body">
+          <span class="dir-role">Managing Director</span>
+          <h3>Naveen Prabhakaran</h3>
+          <span class="dir-line" aria-hidden="true"></span>
+          <p>Leading Kalyanee Marine&rsquo;s global strategy and day-to-day operations with a focus on partnerships, market expansion, and operational excellence.</p>
+        </div>
+        <span class="dir-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M13 6l6 6-6 6"/>
+          </svg>
+        </span>
+      </article>
+
+      <article class="dir-card reveal reveal-delay-1">
+        <span class="dir-glow" aria-hidden="true"></span>
+        <div class="dir-body">
+          <span class="dir-role">Quality &amp; Production</span>
+          <h3>Akash</h3>
+          <span class="dir-line" aria-hidden="true"></span>
+          <p>Overseeing all quality assurance and production processes to ensure consistent HACCP-aligned standards across every batch processed and exported.</p>
+        </div>
+        <span class="dir-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M13 6l6 6-6 6"/>
+          </svg>
+        </span>
+      </article>
+
+      <article class="dir-card reveal reveal-delay-2">
+        <span class="dir-glow" aria-hidden="true"></span>
+        <div class="dir-body">
+          <span class="dir-role">Director &mdash; Purchase &amp; Requirement</span>
+          <h3>Ramakrishnan</h3>
+          <span class="dir-line" aria-hidden="true"></span>
+          <p>Managing raw material procurement and supply chain requirements to maintain seamless production flow and cost-effective sourcing at scale.</p>
+        </div>
+        <span class="dir-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M13 6l6 6-6 6"/>
+          </svg>
+        </span>
+      </article>
+
+      <article class="dir-card reveal reveal-delay-3">
+        <span class="dir-glow" aria-hidden="true"></span>
+        <div class="dir-body">
+          <span class="dir-role">Finance &amp; Management</span>
+          <h3>Nagaraju</h3>
+          <span class="dir-line" aria-hidden="true"></span>
+          <p>Steering financial strategy and internal management systems that underpin Kalyanee Marine&rsquo;s sustained growth, compliance, and global stability.</p>
+        </div>
+        <span class="dir-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M13 6l6 6-6 6"/>
+          </svg>
+        </span>
+      </article>
+
     </div>
   </div>
 </section>
