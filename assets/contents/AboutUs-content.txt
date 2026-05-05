@@ -1,0 +1,92 @@
+About Us-content
+
+========hero==================
+keep it as such
+
+======================Who we are==================
+NAVEEN PRABHAKAR 
+MANAGING DIRECTOR 
+and see the /assets/content/about-who-we-are.* image for reference and this whole about page should be bento box style layout
+
+==============Our Commitment to Excellence=========================
+Processing & Packaging
+We use advanced techniques to process and pack seafood while preserving freshness. Our hygienic facilities ensure top quality, maintaining natural taste and safety for global markets.
+
+
+Quality Assurance
+Our strict quality control ensures every product meets international food standards. Rigorous testing at all stages guarantees premium seafood, ensuring customer satisfaction globally.
+
+
+Global Logistics
+With a reliable logistics network, we provide efficient global shipping. Timely deliveries, secure packaging, and temperature-controlled storage maintain seafood freshness worldwide.
+
+
+Custom Processing
+We offer customized processing solutions tailored to market needs. From portioning to specialized packaging, we meet client demands with precision, efficiency, and strict quality control.
+
+
+Sustainable Sourcing
+We follow responsible sourcing practices, ensuring marine sustainability. Supporting ethical fishing methods, we promote environmental conservation while delivering high-quality seafood.
+
+
+Customer Commitment
+We prioritize customer satisfaction through exceptional service and premium seafood. Our team ensures transparency, trust, and timely support, building strong global partnerships.
+
+============================Some of Our Best Life========================
+<h1>Some of Our Best Life Moments Start with Gayatri Marine </h1>
+Gayatri Marine is a trusted name in the seafood industry, delivering high-quality, sustainably sourced seafood to global markets. With years of expertise, we specialize in premium prawn and shrimp exports, ensuring freshness, taste, and international quality standards.
+
+Discover More---btn
+
+At Gayatri Marine Products, our mission is to deliver the finest seafood to global markets with unwavering quality and sustainability. Since our inception, we have remained committed to sourcing premium shrimp, ensuring the highest industry standards at every stage—from procurement to processing and export. With decades of expertise, we continue to build strong relationships worldwide, bringing fresh and delectable seafood to our valued customers.
+
+Yeshwanth Nagarajan
+-CEO, Gayatri Marine Products
+
+===================Stacked Cards============================
+Our Purpose
+Feeding Growth responsibly, sustainably, and innovatively.
+
+Growth at TWL extends beyond scale. It reflects stronger farmer outcomes, resilient ecosystems, and a more sustainable aquaculture industry.
+
+Mission
+The Company’s mission is to supply products of the highest quality and deliver a superior service to its customers – farmers, shrimp feed dealers, as well as domestic and overseas buyers of processed shrimp.
+
+Vision
+Leverage Company’s pioneering efforts in innovation and create sustainable solutions in the entire value chain of ‘Farm to Fork’ to attain market leadership. To maximize stakeholder value by consistently exceeding customers’ expectations and achieving operational excellence in whatever we do. We are fundamentally committed to developing new technologies and imparting best practices for the growth of the sector and its contribution to Indian economy.
+
+======================Sustainability========================
+Sustainability
+Responsible growth is central to how we operate. Our sustainability initiatives focus on environmental stewardship, responsible farming practices, and community development across the value chain.
+
+Learn More---btn---go to gallery
+
+===========FAQ============================
+Most Popular Questions
+At Gayatri Marine, we value transparency and customer satisfaction. Here are some of the most frequently asked questions to help you understand our processes, quality standards, and global shipping policies.
+
+
+Where Can I Find Information?
+Our website provides detailed information about our sourcing, processing, and export capabilities. For specific inquiries, feel free to contact our support team.
+
+What Are Your Terms And Conditions?
+We adhere to strict industry standards, ensuring transparency and compliance with global seafood regulations. Our terms cover order processing, packaging, and delivery details.
+
+Can I Buy Directly From The Factory?
+Yes, Gayatri Marine offers direct factory sales for bulk orders, ensuring the best quality at competitive prices. Contact us for bulk purchase inquiries.
+
+What Kinds of Payment Do You Accept?
+We accept multiple payment methods, including wire transfers, LC (Letter of Credit), and other secure international payment options.
+
+When do I receive my order?
+Delivery times depend on the destination and order size. We follow a streamlined logistics process to ensure on-time delivery worldwide.
+
+=====================footer========================
+
+
+
+
+
+
+
+
