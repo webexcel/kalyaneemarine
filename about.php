@@ -11,39 +11,12 @@
   <div class="hero-scroll-cue"><span></span></div>
 </section>
 
-<!-- FOUNDER SPOTLIGHT -->
+<!-- WHO WE ARE -->
 <section class="section about-founder">
   <div class="container">
-    <div class="founder-grid">
-      <div class="founder-card reveal reveal-zoom">
-        <div class="fc-photo">
-          <img src="assets/Founder.png" alt="K. R. Mayalagu — Executive Chairman, KRM Group">
-        </div>
-        <div class="fc-photo-overlay">
-          <span class="fc-eyebrow">Founder &amp; Chairman</span>
-          <span class="fc-photo-name">K. R. Mayalagu</span>
-        </div>
-        <div class="fc-tag">
-          <span class="dot"></span>
-          <span>Chennai &middot; Est. 1986</span>
-        </div>
-        <svg class="fc-wave" viewBox="0 0 400 80" preserveAspectRatio="none" aria-hidden="true">
-          <path d="M0 40 Q 50 10 100 40 T 200 40 T 300 40 T 400 40 V80 H0 Z" fill="currentColor" opacity="0.08"/>
-          <path d="M0 50 Q 50 20 100 50 T 200 50 T 300 50 T 400 50 V80 H0 Z" fill="currentColor" opacity="0.14"/>
-        </svg>
-      </div>
-
-      <div class="founder-headline reveal reveal-delay-1">
-        <span class="about-eyebrow">Who We Are</span>
-        <h2>Kalimuthu Rengasami Mayalagu</h2>
-        <span class="founder-chip">Executive Chairman, KRM Group</span>
-      </div>
-
-      <div class="founder-bio reveal reveal-delay-2">
-        <p>K R M Group, known in the International markets for quality shrimp products, is the <strong>leader in the Shrimp Industry of Southern India</strong>. Headquartered at Chennai, the Group was established in 1986 and since its inception, the group is serving global markets by supplying various shrimp products &mdash; both traditional as well as value added.</p>
-        <p>The Group achieves a turnover of more than <strong>USD 25 million</strong> in recent years and every year procures and processes around <strong>5,000 MT</strong> of Whole (Head On) Shrimps to transform into various product forms for exports. Backed with 25 years of historical experience in the Indian Seafood Industry, <strong>Mr. K R Mayalagu</strong>, Executive Chairman, continues to head the Group.</p>
-        <a href="contact.php" class="link-arrow about-link">Work with us <span class="arrow"></span></a>
-      </div>
+    <div class="who-we-are-block reveal">
+      <span class="about-eyebrow">Who We Are</span>
+      <h2 class="krm-highlight">KRM Group</h2>
     </div>
   </div>
 </section>

@@ -16,8 +16,34 @@
 .about-eyebrow.light { color: var(--aqua); }
 .about-eyebrow.light::before { background: var(--aqua); }
 
-/* ---- FOUNDER SPOTLIGHT (matches reference image) ---- */
-.about-founder { background: var(--cream); padding-top: 110px; }
+/* ---- WHO WE ARE ---- */
+.about-founder { background: var(--cream); padding-top: 110px; padding-bottom: 110px; }
+
+.who-we-are-block {
+  text-align: center;
+  display: flex; flex-direction: column; align-items: center; gap: 18px;
+}
+
+.krm-highlight {
+  display: inline-block;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(52px, 8vw, 96px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #fff;
+  background: linear-gradient(135deg, #243a8c 0%, #1a2470 100%);
+  padding: 18px 56px;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 24px 60px -20px rgba(26,36,112,0.35);
+  position: relative;
+  overflow: hidden;
+}
+.krm-highlight::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(circle at 80% 20%, rgba(91,192,190,0.22), transparent 60%);
+  pointer-events: none;
+}
 
 .founder-grid {
   display: grid;
